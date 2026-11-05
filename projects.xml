@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<projects>
+
+  <project category="web">
+    <number>01 — Web App</number>
+    <title>gaming-Hub</title>
+    <description>
+      An interactive website featuring mini-games across Educational, Fun, and Challenge categories.
+    </description>
+
+    <stack>
+      <tech>HTML</tech>
+      <tech>CSS</tech>
+      <tech>JavaScript</tech>
+    </stack>
+
+    <github>https://github.com/Shuvo-2709/gaming-hub.git</github>
+    <live>https://gaminghub-gold.vercel.app</live>
+  </project>
+
+  <project category="web">
+    <number>02 — Website</number>
+    <title>Heart Disease Prediction</title>
+    <description>
+      Predicts likelihood of heart disease using Logistic Regression.
+    </description>
+
+    <stack>
+      <tech>Python</tech>
+      <tech>Scikit-learn</tech>
+      <tech>Pandas/Numpy</tech>
+    </stack>
+
+    <github>https://github.com/Shuvo-2709/Heart-Disease-Prediction-Using-Logistic-Regression.git</github>
+  </project>
+
+  <project category="tool">
+    <number>03 — Tool</number>
+    <title>TapNRide-Smart Bus System</title>
+    <description>
+      IoT-based system for smart transport tracking and monitoring.
+    </description>
+
+    <stack>
+      <tech>HTML/CSS</tech>
+      <tech>JavaScript</tech>
+      <tech>C++</tech>
+      <tech>Python</tech>
+    </stack>
+
+    <github>https://github.com/Asish2404/Smart-Bus-System---IoT-Exposition.git</github>
+    <live>https://smart-bus-system-iot-exposition-production.up.railway.app</live>
+  </project>
+
+  <project category="soft">
+    <number>04 — Software</number>
+    <title>NIVARA - Intelligent Municipal Drainage System</title>
+    <description>
+      A water intelligent platform for water monitoring and management.
+    </description>
+
+    <stack>
+      <tech>HTML/CSS</tech>
+      <tech>JavaScript</tech>
+      <tech>ML</tech>
+      <tech>Python</tech>
+    </stack>
+
+    <github>https://github.com/Asish2404/TeamPanchaBhuj----Ai-Unleashed</github>
+    <live>https://nivara-frontend.vercel.app/</live>
+  </project>
+
+</projects>

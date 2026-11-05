@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio — Contact</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Sans:wght@300;400;500&display=swap"
+    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+  <nav>
+    <div class="nav-logo">Shuvajit Saha</div>
+    <ul class="nav-links">
+      <li><a class="link" href="./index.html">Home</a></li>
+      <li><a class="link" href="./about.html">About</a></li>
+      <li><a class="link" href="./skills.html">Skills</a></li>
+      <li><a class="link" href="./projects.html">Projects</a></li>
+      <li><a class="link" href="./achievements.html">Achievements</a></li>
+      <li><a class="link active" href="./contact.html">Contact</a></li>
+    </ul>
+    <button class="nav-toggle" onclick="toggleMenu()">&#9776;</button>
+  </nav>
+  <main>
+    <section class="page-section">
+      <div class="section-label">Contact</div>
+      <h2>Let's Connect</h2>
+
+      <!-- Contact Info -->
+      <div class="contact-wrap">
+        <div class="contact-left">
+          <p class="contact-intro">
+            Open to internships, collaborations, and interesting conversations.
+            Drop a message and I'll get back to you within 24 hours!
+          </p>
+
+          <div class="contact-info">
+            <a class="contact-row" href="mailto:sahashuvajit213@email.com" target="_blank" rel="noopener noreferrer"
+              title="Send Email">
+              <div class="c-icon">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <div>
+                <div class="c-label">Email</div>
+                <div class="c-val">sahashuvajit213@email.com</div>
+              </div>
+            </a>
+            <a class="contact-row" href="https://www.linkedin.com/in/shuvajit-saha-981070328" target="_blank"
+              rel="noopener noreferrer" title="LinkedIn Profile">
+              <div class="c-icon">
+                <i class="fa-brands fa-linkedin"></i>
+              </div>
+              <div>
+                <div class="c-label">LinkedIn</div>
+                <div class="c-val">linkedin.com/in/shuvajit-saha-981070328</div>
+              </div>
+            </a>
+            <a class="contact-row" href="https://github.com/Shuvo-2709" target="_blank" rel="noopener noreferrer"
+              title="GitHub Profile">
+              <div class="c-icon">
+                <i class="fa-brands fa-github"></i>
+              </div>
+              <div>
+                <div class="c-label">GitHub</div>
+                <div class="c-val">github.com/Shuvo-2709</div>
+              </div>
+            </a>
+            <a class="contact-row"
+              href="https://wa.me/917003042175?text=Hello%20Shuvajit%2C%20I%20came%20across%20your%20portfolio!"
+              target="_blank" rel="noopener noreferrer" title="WhatsApp">
+              <div class="c-icon">
+                <i class="fa-solid fa-phone"></i>
+              </div>
+              <div>
+                <div class="c-label">WhatsApp</div>
+                <div class="c-val">+91 70030 42175 </div>
+              </div>
+            </a>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <form class="contact-form" id="contactForm" onsubmit="handleSubmit(event)" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="fname">Full Name *</label>
+              <input type="text" id="fname" name="fname" placeholder="John Doe" required />
+              <span class="error-msg" id="fname-error"></span>
+            </div>
+            <div class="form-group">
+              <label for="femail">Email Address *</label>
+              <input type="email" id="femail" name="femail" placeholder="john@example.com" required />
+              <span class="error-msg" id="femail-error"></span>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="fjobrole">Job Role *</label>
+            <select id="fjobrole" name="fjobrole" required>
+              <option value="">-- Select a Role --</option>
+              <option value="Collaboration">Collaboration</option>
+              <option value="Internship">Internship</option>
+              <option value="Frontend Developer">Frontend Developer</option>
+              <option value="Backend Developer">Backend Developer</option>
+              <option value="Data Analyst">Data Analyst</option>
+              <option value="Coder">Coder</option>
+            </select>
+            <span class="error-msg" id="fjobrole-error"></span>
+          </div>
+          <div class="form-group">
+            <label for="fmessage">Message *</label>
+            <textarea id="fmessage" name="fmessage" rows="5" placeholder="Tell me about your project or opportunity..."
+              required></textarea>
+            <span class="error-msg" id="fmessage-error"></span>
+          </div>
+          <button type="submit" class="btn-primary full-btn">
+            Send Message →
+          </button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <div id="popup" class="popup">
+    <div class="popup-box">
+      <h2>✅ Message Sent!</h2>
+      <p>Thanks! I’ll get back to you soon.</p>
+      <button onclick="closePopup()">Close</button>
+    </div>
+  </div>
+
+  <footer>
+    <p>Designed &amp; Built by <strong>Shuvajit Saha</strong> &middot; B.Tech CSE 4th Year &middot; 2026</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>

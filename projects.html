@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio — Projects</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Sans:wght@300;400;500&display=swap"
+    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <nav>
+    <div class="nav-logo">Shuvajit Saha</div>
+    <ul class="nav-links">
+      <li><a class="link" href="./index.html">Home</a></li>
+      <li><a class="link" href="./about.html">About</a></li>
+      <li><a class="link" href="./skills.html">Skills</a></li>
+      <li><a class="link active" href="./projects.html">Projects</a></li>
+      <li><a class="link" href="./achievements.html">Achievements</a></li>
+      <li><a class="link" href="./contact.html">Contact</a></li>
+    </ul>
+    <button class="nav-toggle" onclick="toggleMenu()">&#9776;</button>
+  </nav>
+
+  <main>
+    <section class="page-section">
+      <div class="section-label">Projects</div>
+      <h2>What I've Built</h2>
+
+      <!-- Filter Buttons -->
+      <div class="filter-btns">
+        <button class="filter-btn active" onclick="filterProjects('all', this)">All</button>
+        <button class="filter-btn" onclick="filterProjects('web', this)">Web App</button>
+        <button class="filter-btn" onclick="filterProjects('tool', this)">Tools</button>
+        <button class="filter-btn" onclick="filterProjects('tool', this)">Tools</button>
+        <button class="filter-btn" onclick="filterProjects('soft', this)">Software</button>
+      </div>
+
+      <div class="projects-grid" id="xml-projects"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Designed &amp; Built by <strong>Shuvajit Saha</strong> &middot; B.Tech CSE 4th Year &middot; 2026</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>

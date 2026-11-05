@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio — Home</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Sans:wght@300;400;500&display=swap"
+    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- NAVIGATION -->
+  <nav>
+    <div class="nav-logo">Shuvajit Saha</div>
+    <ul class="nav-links">
+      <li><a class="link active" href="./index.html">Home</a></li>
+      <li><a class="link" href="./about.html">About</a></li>
+      <li><a class="link" href="./skills.html">Skills</a></li>
+      <li><a class="link" href="./projects.html">Projects</a></li>
+      <li><a class="link" href="./achievements.html">Achievements</a></li>
+      <li><a class="link" href="./contact.html">Contact</a></li>
+    </ul>
+    <button class="nav-toggle" onclick="toggleMenu()">&#9776;</button>
+  </nav>
+
+  <!-- HERO -->
+  <main>
+    <section class="hero">
+
+      <div class="hero-text">
+        <h1>Hi, I'm <span id="typing" class="accent"></span></h1>
+        <h3 class="subtitle">Full Stack Developer &amp; Data Analyst</h3>
+        <p class="hero-desc">
+          I build high-performance web applications and solve real-world problems using clean and scalable code.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="./projects.html" class="btn-primary">View Projects</a>
+          <a href="./contact.html" class="btn-outline">Get in Touch</a>
+        </div>
+
+        <div class="hero-stats">
+          <div>
+            <div class="stat-num" data-target="4">0</div>
+            <div class="stat-label">Projects</div>
+          </div>
+          <div>
+            <div class="stat-num" data-target="50">0</div>
+            <div class="stat-label">DSA Problems</div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Designed &amp; Built by <strong>Shuvajit Saha</strong> &middot; B.Tech CSE 4th Year &middot; 2026</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>

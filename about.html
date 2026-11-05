@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio — About</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Sans:wght@300;400;500&display=swap"
+    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <nav>
+    <div class="nav-logo">Shuvajit Saha</div>
+    <ul class="nav-links">
+      <li><a class="link" href="./index.html">Home</a></li>
+      <li><a class="link active" href="./about.html">About</a></li>
+      <li><a class="link" href="./skills.html">Skills</a></li>
+      <li><a class="link" href="./projects.html">Projects</a></li>
+      <li><a class="link" href="./achievements.html">Achievements</a></li>
+      <li><a class="link" href="./contact.html">Contact</a></li>
+    </ul>
+    <button class="nav-toggle" onclick="toggleMenu()">&#9776;</button>
+  </nav>
+
+  <main>
+    <section class="page-section">
+      <div class="section-label">About Me</div>
+      <div class="about-grid">
+        <div class="about-avatar">
+          <img src="./source/shuvajit.png" alt="Shuvajit Saha" />
+        </div>
+
+        <div class="about-text">
+          <h2>Hi, I'm<br>Shuvajit Saha</h2>
+          <p>
+            I'm a 4th year B.Tech Computer Science &amp; Engineering student with a deep
+            interest in web development, data analysis, and building scalable systems.
+          </p>
+          <p>
+            When I'm not coding, I enjoy competitive programming, reading about system
+            design, and contributing to open-source projects.
+          </p>
+          <p>
+            I believe in writing clean, maintainable code and designing interfaces that
+            are both functional and beautiful. Currently exploring full-stack web technologies
+            and cloud platforms.
+          </p>
+
+          <div class="info-row">
+            <span class="info-chip">📍 Kolkata, India</span>
+            <span class="info-chip">🎓 B.Tech CSE — 4th Year</span>
+            <span class="info-chip">🏫 Techno India University</span>
+          </div>
+
+          <div class="info-row" style="margin-top:2rem">
+            <a href="./contact.html" class="btn-primary">Hire Me</a>
+            <a href="./source/Resume_Updated.pdf" class="btn-outline" target="_blank" rel="noopener noreferrer">Download
+              CV</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Education Timeline -->
+      <div class="education-section">
+        <h2>Education</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="tl-year">2023 – Present</div>
+            <div class="tl-info">
+              <h3>B.Tech — Computer Science &amp; Engineering</h3>
+              <p>Techno India University &middot; CGPA: 8.57 / 10</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="tl-year">2021 – 2023</div>
+            <div class="tl-info">
+              <h3>Higher Secondary</h3>
+              <p>Taki House (Government Sponsored) Multipurpose School Boys &middot; Percentage: 78.8%</p>
+            </div>
+          </div>
+          <div class="timeline-item">
+            <div class="tl-year">2015 – 2021</div>
+            <div class="tl-info">
+              <h3>Secondary</h3>
+              <p>The Scottish Church Collegiate School &middot; Percentage: 76.86%</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Designed &amp; Built by <strong>Shuvajit Saha</strong> &middot; B.Tech CSE 4th Year &middot; 2026</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+
+</html>
